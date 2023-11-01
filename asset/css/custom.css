@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.login-content{
+    width: 90%;
+    margin: auto;
+
+}
+.login-img{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+.login-form{
+
+}
+form{
+    
+}
+
+.login-form input{
+    display: block;
+    margin: 0 auto 15px;
+    width: 328px;
+    height: 48px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.login-form input[type=submit] {
+    background: linear-gradient(91.23deg, #4E5897 0%, #141727 100%);
+
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-form a{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ADADAD;
+}
+.login-footer{
+    
+    text-align: center;
+   margin-top: 100px;
+   margin-bottom: 10px;
+}
+.login-footer p{
+    font-size: 12px;
+    font-weight: 500px;
+    color:#ADADAD;
+}
+
+/** Responsive for login page 1 **/
+@media(max-width: 370px){
+    .login-form input{
+        margin: 0 auto 15px;
+        width: 290px;
+        height: 40px;}
+
+
+}
+
+
+/** end login page **/
+
+
+/** start sign up2 **/
+
+.login-info{
+    text-align: center;
+}
+.login-info h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.login-info p{
+    font-size: 12px;
+    line-height: 14.52px;
+    margin-bottom: 7px;
+
+}
+.login-form p{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ADADAD;
+    width: 100%;
+    white-space: nowrap;
+
+}
+.login-form p a{
+    color: #4E5897;
+}
+.sign-footer a{
+    text-decoration: none;
+    color: #4E5897;
+}
+
+/** end sinup 2 **/
+
+
+/** start varification3 **/
+
+
+.login-otp{
+    
+}
+
+.otp{
+     
+    display:flex;
+    justify-content:center;
+  
+}
+.otp input{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    
+}
+.pre-next{
+    display:flex;
+    justify-content:center;
+    
+
+}
+.pre-next input{
+    height: 40px;
+    width: 154px;
+    margin: 5px;
+}
+
+
+/** end varification**/
+
+/** start sign up page 4**/
+.sign-4{
+  margin-bottom: 100px;
+}
+
+/** end sign up page 4**/
+
+/** start sign up page 5**/
+.login-form select{
+    display: block;
+    margin: 0 auto 15px;
+    width: 328px;
+    height: 48px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.radio{
+    width: 140px;
+    height: 15px;
+    display:flex;
+  
+    margin: 10px auto;
+}
+.radio input{
+    width: 15px;
+    height: 15px;
+   
+}
+.radio label{
+  
+    font-size: 12px;
+    font-weight: 400;
+    }
+
+.login-form label{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        width: 287px;
+        height: 30px;
+        margin: 0 auto 5px ;
+        
+}
+
+/** Responsive for sign up page 5 **/
+@media(max-width: 370px){
+        .login-form select{
+            width: 290px;
+            height: 40px;
+           }
+}
+
+/**  start location page 7 **/
+
+
+.login-info h2{
+  font-size:15px;
+  color:#000;
+  font-weight: 500;
+}
+
+.loc-form{
+  margin-bottom: 50px;
+}
+
+
+  /**  start notificayion **/
+
+
+  .notification-area{
+    width: 30%;
+    margin:auto;
+  }
+  .noti-cont-area{
+    display: flex;
+    margin-bottom: 25px;
+
+  }
+  .noti-icon{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  .noti-dot{
+    margin: auto;
+    width: 40%;
+    background-color:
+  }
+  .noti-dot-img{
+  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .noti-ball{
+  
+    width: 60%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .noti-ball-img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 44, 44);
+
+  }
+  .noti-ball-img img{
+    width: 20px;
+    height: 20px;
+    
+
+  }
+  .noti-cont{
+    width: 80%;
+    margin-left: 5px;
+
+  }
+  .noti-head h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 7px;
+    
+  }
+  .noti-foot{
+    display: flex;
+   
+  }
+  .noti-foot p{
+    font-size: 10px;
+    font-weight: 400;
+    color: #838383;
+  }
+  .noti-msg{
+    width: 75%;
+  }
+  .noti-time{
+    width: 25%;
+    text-align: end;
+
+  }
+
+  .noti-alram{
+    margin: 20px 0;
+  }
+  .noti-alram h3{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .noti-alram h3 span{
+    color: #4E5897;
+  }
+
+  /** Responsive for sign up page 5 **/
+
+  @media(max-width:992px){
+    .notification-area{
+      width: 65%;
+      margin: auto;
+      }
+   
+  }
+
+  @media(max-width:576px){
+    .notification-area{
+      width: 75%;
+      margin:auto;
+      }
+   
+  }
+@media(max-width: 370px){
+  .notification-area{
+    width: 90%;
+    margin: auto;
+
+    }.noti-ball-img{
+      width:30px;
+      height: 30px;}
+
+  
+ 
+}
+
+.arro-area{
+  
+  margin-top: 30px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 1px #e8e8e8;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arro-head{
+  width:80%;
+  height: 61px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.arro-cont{
+  
+  height: 18px;
+  
+}
+.arro-cont h2 {
+  font-size: 15px;
+}
+.arro-arro{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left:0;
+  transform: translateY(-50%);
+}
+.arro-arro a i{
+  color: #000;
+  font-size: 20px;
+}
